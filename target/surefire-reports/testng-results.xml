@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-26T16:44:02 CET" name="loginSuite" finished-at="2024-06-26T16:44:27 CET" duration-ms="24908">
+    <groups>
+    </groups>
+    <test started-at="2024-06-26T16:44:02 CET" name="loginSteps" finished-at="2024-06-26T16:44:27 CET" duration-ms="24908">
+      <class name="CRMTestng.steps.loginSteps">
+        <test-method is-config="true" signature="beforeALlMethode()[pri:0, instance:CRMTestng.steps.loginSteps@196a42c3]" started-at="2024-06-26T16:44:02 CET" name="beforeALlMethode" finished-at="2024-06-26T16:44:02 CET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeALlMethode -->
+        <test-method is-config="true" signature="luncher()[pri:0, instance:CRMTestng.steps.loginSteps@196a42c3]" started-at="2024-06-26T16:44:02 CET" name="luncher" finished-at="2024-06-26T16:44:11 CET" duration-ms="8891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luncher -->
+        <test-method signature="user_fill_the_email_and_password_and_click_on_login_button()[pri:0, instance:CRMTestng.steps.loginSteps@196a42c3]" started-at="2024-06-26T16:44:11 CET" name="user_fill_the_email_and_password_and_click_on_login_button" description="login with valid credential" finished-at="2024-06-26T16:44:27 CET" duration-ms="15244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_fill_the_email_and_password_and_click_on_login_button -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CRMTestng.steps.loginSteps@196a42c3]" started-at="2024-06-26T16:44:27 CET" name="tearDown" finished-at="2024-06-26T16:44:27 CET" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user_fill_the_email_and_password_and_click_on_login_button status=SUCCESS method=loginSteps.user_fill_the_email_and_password_and_click_on_login_button()[pri:0, instance:CRMTestng.steps.loginSteps@196a42c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CRMTestng.steps.loginSteps -->
+    </test> <!-- loginSteps -->
+  </suite> <!-- loginSuite -->
+  <suite started-at="2024-06-26T16:44:27 CET" name="SignUpSuite" finished-at="2024-06-26T16:44:42 CET" duration-ms="14875">
+    <groups>
+    </groups>
+    <test started-at="2024-06-26T16:44:27 CET" name="SignUpSteps" finished-at="2024-06-26T16:44:42 CET" duration-ms="14875">
+      <class name="CRMTestng.steps.SignUpSteps">
+        <test-method is-config="true" signature="beforeALlMethode()[pri:0, instance:CRMTestng.steps.SignUpSteps@3e08ff24]" started-at="2024-06-26T16:44:27 CET" name="beforeALlMethode" finished-at="2024-06-26T16:44:27 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeALlMethode -->
+        <test-method is-config="true" signature="luncher()[pri:0, instance:CRMTestng.steps.SignUpSteps@3e08ff24]" started-at="2024-06-26T16:44:27 CET" name="luncher" finished-at="2024-06-26T16:44:33 CET" duration-ms="5776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luncher -->
+        <test-method signature="user_fill_the_email_and_click_on_accept_terms_select_captcha_and_click_on_signup_button()[pri:0, instance:CRMTestng.steps.SignUpSteps@3e08ff24]" started-at="2024-06-26T16:44:33 CET" name="user_fill_the_email_and_click_on_accept_terms_select_captcha_and_click_on_signup_button" description="User fill the email and click on accept terms &amp; select captcha and click on signup Button" finished-at="2024-06-26T16:44:41 CET" duration-ms="8285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_fill_the_email_and_click_on_accept_terms_select_captcha_and_click_on_signup_button -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CRMTestng.steps.SignUpSteps@3e08ff24]" started-at="2024-06-26T16:44:41 CET" name="tearDown" finished-at="2024-06-26T16:44:42 CET" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user_fill_the_email_and_click_on_accept_terms_select_captcha_and_click_on_signup_button status=SUCCESS method=SignUpSteps.user_fill_the_email_and_click_on_accept_terms_select_captcha_and_click_on_signup_button()[pri:0, instance:CRMTestng.steps.SignUpSteps@3e08ff24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CRMTestng.steps.SignUpSteps -->
+    </test> <!-- SignUpSteps -->
+  </suite> <!-- SignUpSuite -->
+  <suite started-at="2024-06-26T16:44:42 CET" name="mainSuite" finished-at="2024-06-26T16:44:42 CET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- mainSuite -->
+</testng-results>

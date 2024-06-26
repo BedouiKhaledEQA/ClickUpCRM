@@ -1,0 +1,8 @@
+CRMTestng\steps\loginSteps.class
+CRMTestng\Pages\loginPage.class
+CRMTestng\steps\SignUpSteps.class
+CRMTestng\Base.class
+CRMTestng\Locators\loginlocators.class
+CRMTestng\Pages\UserPage.class
+CRMTestng\Locators\SignUplocators.class
+CRMTestng\Pages\SignUpPage.class
