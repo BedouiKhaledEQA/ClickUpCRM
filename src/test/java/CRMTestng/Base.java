@@ -36,7 +36,7 @@ public class Base {
             } else if ("prod".equalsIgnoreCase(environment)) {
                 file=new File("src/test/java/CRMTestng/Properties/Prod_config.Properties");
 
-            }else throw new RuntimeException("environment n'est pas pris en charge !");
+            }else throw new RuntimeException("environment n'est pas pris en charge !!");
 
             FileInputStream fis = new FileInputStream(file);
             props.load(fis);
